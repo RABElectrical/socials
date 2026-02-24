@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | R.A.B Electrical</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLpQp5Fp6zF6F4w2F3B9t9W5x2F7VbL5dF8L5F4p7D5c5Q5p8p9t9t8S8s7S8" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <main class="review-funnel-container container">
+        <img src="LOGO.png" alt="R.A.B Electrical Logo" class="review-funnel-logo">
+
+        <h1 class="review-funnel-heading">Get in Touch</h1>
+        <p class="intro-sentence">Please fill out the form below and we'll get back to you shortly.</p>
+
+        <section class="contact-form-section">
+            <form action="https://formspree.io/f/xanbaqaw" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Your Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" class="form-input" required></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="email-updates" name="email-updates">
+                    <label for="email-updates">Yes, I'd like to receive tips, safety reminders, and updates on electrical regulations.</label>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        <a href="index.html" class="go-back-button">
+            <i class="fas fa-arrow-left"></i> Go Back
+        </a>
+
+    </main>
+
+</body>
+</html>
